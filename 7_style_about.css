@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    text-align: center; /* Centers text for the entire body */
+}
+header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center; /* Centers text within the header */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centers the navigation menu */
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.active {
+    font-weight: bold;
+}
+main { /* Added to center content within the main section */
+    text-align: center;
+}
+footer { /* Added to center content within the footer */
+    text-align: center;
+}
+
+#about-us { /* Styles for the whole About Us section */
+    padding: 20px;
+    text-align: center; /* Or left, if you prefer the text not to be centered */
+}
+
+.story-box {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Subtle border */
+    padding: 20px;
+    margin: 0 auto; /* Center the box */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+}
+
+.story-box h3 {
+    color: #333; /* Darker heading color */
+    margin-bottom: 15px;
+}
+
+.story-box p {
+    line-height: 1.6; /* Adjust line height for readability */
+    text-align: justify; /* Justify text for a cleaner look (optional) */
+}

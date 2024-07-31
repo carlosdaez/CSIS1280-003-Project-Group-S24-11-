@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center; /* Centers text for the entire body */
+}
+header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center; /* Centers text within the header */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centers the navigation menu */
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.active {
+    font-weight: bold;
+}
+main { /* Added to center content within the main section */
+    text-align: center;
+}
+footer { /* Added to center content within the footer */
+    text-align: center;
+}
+
+.product-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping to multiple lines */
+}
+
+.product-images img {
+    width: 300px; /* Set fixed width for square shape */
+    height: 300px; /* Set fixed height for square shape */
+    object-fit: cover; 
+    margin: 10px;
+    border: 1px solid #ddd;
+}

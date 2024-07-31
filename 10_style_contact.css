@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    text-align: center; /* Centers text for the entire body */
+}
+header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center; /* Centers text within the header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centers the navigation menu */
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.active {
+    font-weight: bold;
+}
+main { /* Added to center content within the main section */
+    text-align: center;
+}
+footer { /* Added to center content within the footer */
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center items horizontally */
+    width: 400px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+#contact-form label {
+    text-align: left; /* Align labels to the left */
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%; /* Make input fields full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Optional rounded corners */
+}
+
+#contact-form input[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color:   
+ #0056b3; /* Darker blue on hover */
+}

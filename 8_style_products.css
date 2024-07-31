@@ -40,3 +40,29 @@ footer { /* Added to center content within the footer */
     margin: 10px;
     border: 1px solid #ddd;
 }
+
+.product-ticker {
+    overflow: hidden; /* Hide overflow to create the ticker effect */
+}
+
+.product-images {
+    display: flex;
+    animation: scroll 25s linear infinite; /* Adjust duration for speed */
+}
+
+.product-images div {
+    flex: 0 0 auto; /* Important for smooth scrolling */
+    margin: 10px;
+}
+
+.product-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); } /* Adjust for image count */
+}

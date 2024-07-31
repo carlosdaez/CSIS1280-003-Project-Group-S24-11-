@@ -1,6 +1,7 @@
 function showAlert() {
     alert("This feature will be available upon store launch. Thank you for your patience!");
   }
+
   document.addEventListener("DOMContentLoaded", function() {
     var popup = document.getElementById("popup");
     var closeBtn = document.querySelector(".close");
@@ -8,7 +9,7 @@ function showAlert() {
     // Show the popup after a delay (e.g., 3 seconds)
     setTimeout(function() {
         popup.style.display = "block";
-    }, 3000);
+    }, 5000);
 
     // Close the popup when the close button is clicked
     closeBtn.onclick = function() {
@@ -22,3 +23,8 @@ function showAlert() {
         }
     }
 });
+
+const productImagesContainer = document.querySelector('.product-images');
+
+// Duplicate the product images to create a seamless loop
+productImagesContainer.innerHTML += productImagesContainer.innerHTML;

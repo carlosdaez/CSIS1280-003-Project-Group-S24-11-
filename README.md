@@ -7,6 +7,10 @@ HTML C/O: Daez
 CSS C/O: Fu
 Javascript C/O: Amogu
 
+This website was inspired by "Johnny Dang & Co. Custom Jewelry" @ https://johnnydangandco.com/
+
+-
+
 IMG & TXT Sources (also included as .txt)
 
 IMG_div_banner1.gif
@@ -46,4 +50,3 @@ Source: Adobe Express
 
 "About" & "Blog" TXT
 Source: Google Gemini
-

@@ -1,11 +1,11 @@
 body {
     font-family: sans-serif;
-    text-align: center; /* Centers text for the entire body */
+    text-align: center; 
 }
 header {
     background-color: #f0f0f0;
     padding: 1em;
-    text-align: center; /* Centers text within the header */
+    text-align: center; 
 }
 .popup {
     display: none;
@@ -101,7 +101,7 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Centers the navigation menu */
+    text-align: center; 
 }
 nav ul li {
     display: inline;
@@ -110,10 +110,10 @@ nav ul li {
 .active {
     font-weight: bold;
 }
-main { /* Added to center content within the main section */
+main { 
     text-align: center;
 }
 
-footer { /* Added to center content within the footer */
+footer { 
     text-align: center;
 }

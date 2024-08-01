@@ -1,16 +1,16 @@
 body {
     font-family: sans-serif;
-    text-align: center; /* Centers text for the entire body */
+    text-align: center; 
 }
 header {
     background-color: #f0f0f0;
     padding: 1em;
-    text-align: center; /* Centers text within the header */
+    text-align: center; 
 }
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Centers the navigation menu */
+    text-align: center; 
 }
 nav ul li {
     display: inline;
@@ -19,34 +19,34 @@ nav ul li {
 .active {
     font-weight: bold;
 }
-main { /* Added to center content within the main section */
+main { 
     text-align: center;
 }
-footer { /* Added to center content within the footer */
+footer { 
     text-align: center;
 }
 
-#about-us { /* Styles for the whole About Us section */
+#about-us { 
     padding: 20px;
-    text-align: center; /* Or left, if you prefer the text not to be centered */
+    text-align: center; 
 }
 
 .story-box {
-    background-color: #f9f9f9; /* Light background color */
-    border: 1px solid #ddd; /* Subtle border */
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
     padding: 20px;
-    margin: 0 auto; /* Center the box */
-    max-width: 800px; /* Adjust the maximum width as needed */
-    border-radius: 8px; /* Rounded corners for a softer look */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+    margin: 0 auto; 
+    max-width: 800px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .story-box h3 {
-    color: #333; /* Darker heading color */
+    color: #333; 
     margin-bottom: 15px;
 }
 
 .story-box p {
-    line-height: 1.6; /* Adjust line height for readability */
-    text-align: justify; /* Justify text for a cleaner look (optional) */
+    line-height: 1.6; 
+    text-align: justify; 
 }
